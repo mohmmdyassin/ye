@@ -342,25 +342,29 @@ const App = () => {
           >
             Most Replies
           </button>
-          <button
-          className="control-btn"
+          <a
+  href="https://x.com/mohmmdyassin"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="control-btn"
   style={{
     display: "flex",
     alignItems: "center",
     padding: "10px 16px",
     border: "none",
     borderRadius: "9999px",
-
     fontSize: "14px",
     fontWeight: "500",
     cursor: "pointer",
     transition: "background 0.3s ease",
+    textDecoration: "none", // remove underline
+    color: "white", // make text visible if button bg is colored
   }}
-  onClick={() => setShowSupportModal(true)}
 >
-  <Heart style={{ marginRight: "8px", fill: "white" }} size={16} />
-  Support the Archive
-</button>
+  <span style={{ marginRight: "8px" }}>🔗</span>
+  Built by @mohmmdyassin
+</a>
+
 
         </div>
 
