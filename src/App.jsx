@@ -578,7 +578,17 @@ const App = () => {
         }
       `}</style>
 
-            <h3 className="modal-title">Support the Archive</h3>
+           <h3 className="modal-title">
+  <a
+    href="https://x.com/mohmmdyassin"
+    target="_blank"
+    rel="noopener noreferrer"
+    
+  >
+    Built by @mohmmdyassin
+  </a>
+</h3>
+
             <button
               className="close-btn"
               onClick={() => setShowSupportModal(false)}
